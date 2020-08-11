@@ -1,4 +1,5 @@
 {
+  "homepage": "http://nato-x.github.io/app-de-receitas",
   "name": "recipes-app-test",
   "version": "0.1.0",
   "private": true,
@@ -27,7 +28,6 @@
     "react-scripts": "3.4.1",
     "websocket-extensions": ">=0.1.4"
   },
-  "homepage": "http://nato-x.github.io/app-de-receitas",
   "scripts": {
     "cy": "cypress run",
     "cy:open": "cypress open",
