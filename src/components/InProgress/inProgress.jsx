@@ -55,7 +55,7 @@ const InProgress = () => {
       <FinishButton
         dones={dones}
         ingredientsQuantity={!!localStoragePath && localStoragePath.length}
-        save={saveDone(formatDataForDones(data[drinksOrMeals][0]), setSingleDone, str)}
+        save={saveDone(formatDataForDones(data[drinksOrMeals][0],setSingleDone, str))}
       />
     </div>
   );
