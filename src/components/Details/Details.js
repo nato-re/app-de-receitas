@@ -54,7 +54,7 @@ export default function Details() {
   const typeRequsition = useLocation().pathname.split('/')[1];
   // console.log('typeRequsition', typeRequsition);
   // console.log('objectReturnedAfterReq:', objectReturnedAfterReq);
-  const itemId = useLocation().pathname.split('/')[3];
+  const itemId = useLocation().pathname.split('/')[5];
   useEffect(() => {
     functionToMakeRequisition(
       typeRequsition,
