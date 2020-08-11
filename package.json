@@ -27,6 +27,7 @@
     "react-scripts": "3.4.1",
     "websocket-extensions": ">=0.1.4"
   },
+  "homepage": "http://nato-x.github.io/app-de-receitas",
   "scripts": {
     "cy": "cypress run",
     "cy:open": "cypress open",
@@ -34,7 +35,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test-coverage": "react-scripts test --coverage --watchAll=false",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -57,6 +60,7 @@
     "cypress-multi-reporters": "^1.4.0",
     "eslint": "^6.8.0",
     "fs-extra": "^9.0.1",
+    "gh-pages": "^3.1.0",
     "mocha": "^8.0.1",
     "mochawesome": "^6.1.1",
     "mochawesome-merge": "^4.1.0",
