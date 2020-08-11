@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/app-de-receitas/static/css/main.3329a77a.chunk.css",
-    "main.js": "/app-de-receitas/static/js/main.e25dd496.chunk.js",
-    "main.js.map": "/app-de-receitas/static/js/main.e25dd496.chunk.js.map",
+    "main.js": "/app-de-receitas/static/js/main.9001975b.chunk.js",
+    "main.js.map": "/app-de-receitas/static/js/main.9001975b.chunk.js.map",
     "runtime-main.js": "/app-de-receitas/static/js/runtime-main.14259213.js",
     "runtime-main.js.map": "/app-de-receitas/static/js/runtime-main.14259213.js.map",
     "static/js/2.24a1fa86.chunk.js": "/app-de-receitas/static/js/2.24a1fa86.chunk.js",
     "static/js/2.24a1fa86.chunk.js.map": "/app-de-receitas/static/js/2.24a1fa86.chunk.js.map",
     "index.html": "/app-de-receitas/index.html",
-    "precache-manifest.81621bb97c108bcbd8e6560f312d9491.js": "/app-de-receitas/precache-manifest.81621bb97c108bcbd8e6560f312d9491.js",
+    "precache-manifest.84bdd5a646e124ff0ca08f4bf0abd1bb.js": "/app-de-receitas/precache-manifest.84bdd5a646e124ff0ca08f4bf0abd1bb.js",
     "service-worker.js": "/app-de-receitas/service-worker.js",
     "static/css/main.3329a77a.chunk.css.map": "/app-de-receitas/static/css/main.3329a77a.chunk.css.map",
     "static/js/2.24a1fa86.chunk.js.LICENSE.txt": "/app-de-receitas/static/js/2.24a1fa86.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.14259213.js",
     "static/js/2.24a1fa86.chunk.js",
     "static/css/main.3329a77a.chunk.css",
-    "static/js/main.e25dd496.chunk.js"
+    "static/js/main.9001975b.chunk.js"
   ]
 }
