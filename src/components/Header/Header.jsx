@@ -33,7 +33,7 @@ const Header = (pageTitle, stateOfTheBar, disabled) => {
   return (
     <div>
       <header className="header">
-        <Link to="/perfil">{imageDisplay('profile-top-btn', 'profile-icon', profileIcon)}</Link>
+        <Link to="/app-de-receitas/perfil">{imageDisplay('profile-top-btn', 'profile-icon', profileIcon)}</Link>
         <div className="title">
           <p data-testid="page-title">{`${pageTitle}`}</p>
         </div>

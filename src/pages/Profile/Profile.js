@@ -24,12 +24,12 @@ export default function Profile() {
             ) : null}
           </div>
           <div className="profile-btn-container">
-            <Link to="/receitas-favoritas">
+            <Link to="/app-de-receitas/receitas-favoritas">
               <button type="button" className="profile-btn" data-testid="profile-favorite-btn">
                 Receitas Favoritas
               </button>
             </Link>
-            <Link to="/receitas-feitas">
+            <Link to="/app-de-receitas/receitas-feitas">
               <button className="profile-btn" data-testid="profile-done-btn">
                 Receitas Feitas
               </button>

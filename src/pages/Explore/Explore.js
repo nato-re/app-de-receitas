@@ -10,14 +10,14 @@ export default function Explore() {
       {Header('Explorar', false)}
       <div className="explore-btn-container">
         <div>
-          <Link to="/explorar/comidas">
+          <Link to="/app-de-receitas/explorar/comidas">
             <button className="explore-btn" type="button" data-testid="explore-food">
               Explorar Comidas
             </button>
           </Link>
         </div>
         <div>
-          <Link to="/explorar/bebidas">
+          <Link to="/app-de-receitas/explorar/bebidas">
             <button className="explore-btn" type="button" data-testid="explore-drinks">
               Explorar Bebidas
             </button>

@@ -44,7 +44,7 @@ export default function StartButton() {
   }, [doneRecipes, inProgressRecipes]);
 
   return !isRecipeDone(id) && (
-    <Link to={{ pathname: `/${typeRequsition}/${id}/in-progress` }}>
+    <Link to={{ pathname: `/app-de-receitas/${typeRequsition}/${id}/in-progress` }}>
       <button
         className="start-btn"
         data-testid="start-recipe-btn"

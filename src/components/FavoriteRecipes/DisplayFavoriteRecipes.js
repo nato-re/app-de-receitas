@@ -12,10 +12,10 @@ const removeFromFavorites = (itemId, setLocalStorageFavorites) => {
   setLocalStorageFavorites(findElementToRemove);
 };
 const copyToClipBoard = (itemLink, setCopied) => {
-  navigator.clipboard.writeText(`http://localhost:3000${itemLink}`);
+  navigator.clipboard.writeText(`/app-de-receitas${itemLink}`);
   navigator.clipboard
     .readText()
-    .then((el) => el === `http://localhost:3000${itemLink}` && setCopied(true))
+    .then((el) => el === `/app-de-receitas${itemLink}` && setCopied(true))
     .then(
       setTimeout(() => {
         setCopied(false);
@@ -57,8 +57,8 @@ const renderGrid = (recipe, index, setLocalStorageFavorites, setCopied) => (
       key={Math.random()}
       data-testid={`${index}-recipe-card`}
       to={
-        (recipe.type === 'comida' && `/comidas/${recipe.id}`)
-        || (recipe.type === 'bebida' && `/bebidas/${recipe.id}`)
+        (recipe.type === 'comida' && `/app-de-receitas/comidas/${recipe.id}`)
+        || (recipe.type === 'bebida' && `/app-de-receitas/bebidas/${recipe.id}`)
       }
     >
       <h3>{recipe.alcoholicOrNot}</h3>

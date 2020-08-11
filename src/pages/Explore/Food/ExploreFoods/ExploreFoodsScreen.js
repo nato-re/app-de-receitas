@@ -24,17 +24,17 @@ export default function ExploreFoodsScreen() {
     <div>
       {Header('Explorar Comidas', false)}
       <div className="explore-btn-container">
-        <Link to="/explorar/comidas/ingredientes">
+        <Link to="/app-de-receitas/explorar/comidas/ingredientes">
           <button type="button" data-testid="explore-by-ingredient" className="explore-btn">
             Por Ingredientes
           </button>
         </Link>
-        <Link to="/explorar/comidas/area">
+        <Link to="/app-de-receitas/explorar/comidas/area">
           <button type="button" data-testid="explore-by-area" className="explore-btn">
             Por Local de Origem
           </button>
         </Link>
-        <Link to={`/comidas/${randomMealId}`}>
+        <Link to={`/app-de-receitas/comidas/${randomMealId}`}>
           <button type="button" data-testid="explore-surprise" className="explore-btn">
             Me Surpreenda!
           </button>

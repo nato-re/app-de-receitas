@@ -9,7 +9,7 @@ import './FinishButton.style.css';
 export default function FinishButtton({ dones, ingredientsQuantity, save }) {
   // const isDone = !!dones && dones.length === ingredientsQuantity;
   return (
-    <Link to="/receitas-feitas">
+    <Link to="/app-de-receitas/receitas-feitas">
       <button
         className="finish-btn"
         data-testid="finish-recipe-btn"

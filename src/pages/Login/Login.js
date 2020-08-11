@@ -46,7 +46,7 @@ const Login = () => {
           required
           minLength={6}
         />
-        <Link to="/comidas">
+        <Link to="/app-de-receitas/comidas">
           <button
             className="signin-button"
             style={{ width: '-webkit-fill-available' }}

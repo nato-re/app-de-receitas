@@ -22,13 +22,13 @@ export default function Footer() {
   };
   return (
     <div className="footer-container" data-testid="footer">
-      <Link to="/bebidas">
+      <Link to="/app-de-receitas/bebidas">
         {imageDisplay('drinks-bottom-btn', 'drink-icon', drinkIcon)}
       </Link>
-      <Link to="/explorar">
+      <Link to="/app-de-receitas/explorar">
         {imageDisplay('explore-bottom-btn', 'explore-icon', exploreIcon)}
       </Link>
-      <Link onClick={handleClick} to="/comidas">
+      <Link onClick={handleClick} to="/app-de-receitas/comidas">
         {imageDisplay('food-bottom-btn', 'meal-icon', mealIcon)}
       </Link>
     </div>
