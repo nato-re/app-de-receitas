@@ -31,7 +31,7 @@ const saveInProgress = (item = [], localKey, itemId) => {
 };
 const InProgressProvider = ({ children }) => {
   const itemId = useParams().id;
-  const typeRequsition = useLocation().pathname.split('/')[4];
+  const typeRequsition = useLocation().pathname.split('/')[3];
   const localKey = typeRequsition === 'comidas' ? 'meals' : 'cocktails';
   const requestKey = (typeRequsition === 'comidas' ? 'meals' : 'drinks');
   const localStoragePath = !!inProgressRecipes && !!inProgressRecipes[localKey]
